@@ -1,0 +1,80 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="style.css">
+    <title>Binary Tree System</title>
+    <header><center><h1>BINARY TREE SYSTEM</h1></center>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        
+
+
+       
+    </header>
+</head>
+
+<body>
+    <div class="container">
+        
+        <div class="findContainer"></div>
+        <textarea oninput="action()" type="number" placeholder='Enter values separated by space
+Ex: 5 9 1 3 7' id="inp" cols="30" rows="10"></textarea>
+       
+        <div class="btn-container">
+            <button class="btn-clear" onclick="clearAndCreate()">Clear</button>
+            <button class="btn" disabled onclick="toggleLock()">Display</button>
+        </div>
+
+        <div class="box graph" id="tree"></div>
+
+    </div>
+    <div class="output-container" id="output">
+        <center><h3>Tree Traversals:</h3>
+        <div id="inOrder">
+            <h4>In-Order:</h4>
+            <p id="inOrderTraversal"></p>
+        </div>
+        <div id="preOrder">
+            <h4>Pre-Order:</h4>
+            <p id="preOrderTraversal"></p>
+        </div>
+        <div id="postOrder">
+            <h4>Post-Order:</h4>
+            <p id="postOrderTraversal"></p></center>
+        </div>
+    </div>
+    
+    
+
+</body>
+<script src="./js/index.js"></script>
+<script src="./js/binaryTree.js"></script>
+<script src="./js/draw.js"></script>
+<script src="./js/d3js.js"></script>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<footer style="background-color: orange;">
+    <center><p>oliver mahonga &copy ;</p></center>
+</footer>
+
+</html>
