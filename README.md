@@ -26,7 +26,6 @@ This project is a simple and interactive Binary Tree visualizer that allows user
 ### Clone the repository
 
 ```bash
-git clone https://github.com/your-username/binary-tree-visualization.git
-cd binary-tree-visualization
+git clone https://github.com/oliver-mahonga/binary-tree-system-and-visualization
 ```
 ## run in  browser
